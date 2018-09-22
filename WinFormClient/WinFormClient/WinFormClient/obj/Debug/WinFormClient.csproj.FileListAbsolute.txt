@@ -1,0 +1,11 @@
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\bin\Debug\WinFormClient.exe.config
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\bin\Debug\WinFormClient.exe
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\bin\Debug\WinFormClient.pdb
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.csprojAssemblyReference.cache
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.Properties.Resources.resources
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.RegistrationForm.resources
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.csproj.GenerateResource.cache
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.csproj.CoreCompileInputs.cache
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.exe
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.pdb
+D:\Codes\Git\BSU_Labs\WinFormClient\WinFormClient\WinFormClient\obj\Debug\WinFormClient.ClientForm.resources
