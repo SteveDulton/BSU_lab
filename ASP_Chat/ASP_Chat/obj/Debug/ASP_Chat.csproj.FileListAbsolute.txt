@@ -89,3 +89,16 @@ D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\obj\Debug\ASP_Chat.csproj.CoreCo
 D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\obj\Debug\ASP_Chat.csproj.CopyComplete
 D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\obj\Debug\ASP_Chat.dll
 D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\obj\Debug\ASP_Chat.pdb
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.Owin.dll
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.Owin.Security.dll
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Owin.dll
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.Owin.xml
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Codes\Git\BSU_Labs\BSU_lab\ASP_Chat\ASP_Chat\bin\Microsoft.Owin.Security.xml
