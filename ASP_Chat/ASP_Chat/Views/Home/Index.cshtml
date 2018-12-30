@@ -1,70 +1,31 @@
-﻿<!doctype html>
-<html>
-<head>
-    <title>Chat</title>
-    <meta content="text/html" charset="utf-8">
-</head>
-<body>
-    <div id="wrapper">
-        <div class="heading"> </div>
-        <aside>
-            <div class="list_of_users">
-                <div name="title">
-                    List of Users
-                </div>
-                <ul type="none">
-                    <li>
-                        <div>
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/31mRh3hjx8L.jpg" width="40" height="40" alt="photo" class="person_avatar">
-                        </div>
-                        <div>
-                            <span name="NAME">Дмитрий Пупкин</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9b8ca05b253e33c9009832bca8d68c0&w=1000&q=80" width="40" height="40" alt="photo" class="person_avatar">
-                        </div>
-                        <div>
-                            <span name="NAME">Максим Одуванчиков</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-        <section>
-            <div class="message_history">
-                <div class="msgs">
-                    <div class="msg_profile">
-                        <img src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9b8ca05b253e33c9009832bca8d68c0&w=1000&q=80" width="40" height="40" alt="photo" class="person_avatar">
-                        <span name="msg_name">Максим Одуванчиков</span>
-                    </div>
-                    <div class="msg_stack">
-                        <ul type="none">
-                            <li class="msg"> Добро пожаловать в Наш дружелюбный чатик, с кучей багов и косяков, но вы же не собираетесь обращать на это внимания, а просто улыбнётесь и поставите хорошую оценку, далее Мы с Вами встретимся на чём-то там, Мы не в курсе зачёт или экзамен у Нас будет, но я так предполагаю, что это совершенно неважно, ведь Мы все такие весёлые и оптимистичные, договориться друг с другом проблем Нам не составит. </li>
-                            <li class="msg"> Всего Доброго! И с наступающим Новым Годом! (Да кого волнует, что до него ещё месяц? :) ) </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="msgs">
-                    <div class="msg_profile">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/31mRh3hjx8L.jpg" width="40" height="40" alt="photo" class="person_avatar">
-                        <span name="msg_name">Дмитрий Пупкин</span>
-                    </div>
-                    <div class="msg_stack">
-                        <ul type="none">
-                            <li class="msg"> Данные сообщения были сгенерированы генератором случайных фраз исключительно в целях бесцелевого назначения.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <form name="message_input" method="post">
-                <input type="text" name="text" placeholder="New Message"><button type="submit">Send</button>
-            </form>
-        </section>
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
     </div>
-</body>
-</html>
-@*{
-        ViewBag.Title = "Home Page";
-}*@
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>

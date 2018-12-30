@@ -1,68 +1,41 @@
 ﻿@{
-    ViewBag.Title = "About";
+    Layout = null;
 }
-
-<style>
-    div.panel-body {
-        overflow: scroll;
-        background: url(http://subtlepatterns.com/patterns/geometry2.png)
-    }
-</style>
-<h2>Chat</h2>
-<div class="chat-panel panel panel-default">
-    <div class="panel-heading">
-        ChatBox using SignalR
-        <i class="fa fa-paper-plane fa-fw" />
-    </div>
-
-    <div class="panel-body" id="chat" style="height:250px;">
-        <input type="hidden" id="displayname" />
-
-        <p id="discussion"></p>
-    </div>
-
-    <div class="panel-footer">
-        <div class="input-group">
-            <input id="message" type="text" name="message" class="form-control input-sm" placeholder="Type your message here..." />
-
-            <span class="input-group-btn">
-                <input type="button" class="btn btn-warning btn-sm" id="sendmessage" value="Send" />
-            </span>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR chat</title>
+    <link href="~/Content/Chat.css" rel="stylesheet" />
+</head>
+<body class="background-image">
+    <header class="greeting" id="header"></header>
+    <div class="main">
+        <div class="screen-center">
+            <div class="login-panel" id="loginBlock">
+                <span>Log in to Chat</span>
+                <input class="login-txtField" id="txtUserName" type="text" placeholder="login..." />
+                <input class="btn-login" id="btnLogin" type="button" value="Log In" />
+            </div>
         </div>
+        <aside id="listOfUsers">
+            <ul class="chat-users circled-input" id="chatusers"></ul>
+        </aside>
+        <section class="chat-body" id="chatBody">
+            <div class="chat-window circled-input" id="chatroom"></div>
+            <div class="send-panel" id="inputForm">
+                <textarea class="text-test" id="message" placeholder="Write a message.."></textarea>
+                <input class="btn-send" type="button" id="sendmessage" value="Send" />
+            </div>
+        </section>
+        <input id="hdId" type="hidden" />
+        <input id="username" type="hidden" />
     </div>
-</div>
-@section scripts{
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
     <script src="~/Scripts/jquery.signalR-2.4.0.min.js"></script>
-    <script src="~/SignalR/Hubs/"></script>
-
-    <script>
-        $(function () {
-            var chat = $.connection.chatHub;
-
-            chat.client.addNewMessageToPage = function (name, message) {
-                if (name == "Admin") {
-                    $('#discussion').append('<p style=color:green; text-align:left; width:500px"><strong><img src="http://rmg.zum.de/images/b/b4/Alice_grinsend.jpg" width="40" height="40" border-radius: 100%'
-                        + ' </strong> ' + htmlEncode(message) + '</p>')
-                }
-                else if (name != "Admin") {
-                    $('#discussion').append('<p style="color:blue; text-align:right;"><strong><img src = "http://rmg.zum.de/images/9/92/Bob_neutral.jpg" width="40" height="40" border-radius: 100%'
-                        + ' </strong> ' + htmlEncode(message) + '</p>')
-                }
-            };
-            $('#displayname').val(prompt('Enter your name:', ''));
-            $('#message').focus();
-            $.connection.hub.start().done(function () {
-                $('#sendmessage').click(function () {
-                    chat.server.send($('#displayname').val(), $('#message').val());
-                    $('#message').val('').focus();
-                });
-            });
-        });
-
-        function htmlEncode(value) {
-            var encodedValue = $('<div />').text(value).html();
-            return encodedValue;
-        }
-    </script>
-
-}
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/chat.js"></script>
+</body>
+</html>
